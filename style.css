@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.nav-back{
+  background: url(images/back.jpg);
+  background-size: 100%;
+}
+body{
+  background:url('images/back.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  }
+  .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.list{
+  display: flex;
+}
+.text{
+  margin-left: 11px;
+}
+.list li{
+  margin: 0 30px;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+}
+.btn{
+  width: 53px;
+  cursor: pointer;
+  background: none;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.search{
+  display: flex;
+  margin:0 36%;
+}
+.search-bar{
+  background: none;
+  margin: 0 17px 0 43px;
+  padding: 0 5px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+  .weather{
+    margin-left: 25px;
+}
+  .left-sec{
+    width: 20%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 31px
+}
+  .right-sec{
+    width: 87%;
+}
+  .firstsec{
+    display: flex;
+    margin: 16px;
+    align-items: center;
+}
+.firstsec div{
+    text-align: justify;
+    margin: 18px;
+}
+.secondsec{
+  margin: 16px;
+  align-items: center;
+}
+  .secondsec div{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: justify;
+    margin: 18px;
+}
+  .thirdsec{
+    display: flex;
+    margin: 16px;
+    align-items: center;
+}
+.thirdsec div{
+    text-align: justify;
+    margin: 18px;
+}
+.one{
+    border: 0px solid black;
+    border-radius: 20px;
+}
+.form{
+    max-width: 27%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 38%;
+    border: 2px solid black;
+    border-radius: 17px;
+    height: 100%;
+}
+.mainform{
+  text-align:center ;
+}
+.feedback{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid black;
+    border-radius: 10px
+}
+.text-box{
+    background: none;
+    width: 60%;
+    text-align: center;
+    display: inline;
+    margin: 19px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.describe{
+    border: 2px solid black;
+    border-radius: 8px;
+    background: none;
+    width: 75%;
+    text-align: center;
+    display: inline;
+    margin: 19px;
+}
+.btn-sm{
+    cursor: pointer;
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 67px;
+    padding: 3px;
+    margin-bottom: 8px;
+}
+.footer{
+    background:none;
+    text-align: center;
+}
+.nav-list li a{
+  text-decoration: none;
+}
+.nav-list li a:visited{
+  color: rgb(75, 163, 245);
+}
+.nav-list li a:hover{
+  color: rgb(248, 128, 158);
+}
